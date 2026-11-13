@@ -1,0 +1,46 @@
+name: Build threat feed
+
+on:
+  schedule:
+    # Times are UTC. These only prepare the feed; WHEN you're notified is set
+    # by report_time in the tray app's config.json (local time, default 08:05).
+    - cron: "17,47 * * * *"   # outages + new vulnerabilities, twice an hour (off the busy :00/:30 marks)
+    - cron: "23 6 * * *"      # morning report: 06:23 UTC (07:23 in UK summer), well before 08:05
+                              # GitHub can run schedules 30+ min late, so keep a margin.
+                              # If you change this line, change the matching line under "MODE:" below.
+  workflow_dispatch:           # "Run workflow" button for testing
+    inputs:
+      mode:
+        description: "alerts or report"
+        default: "report"
+
+permissions:
+  contents: write              # needed only to commit the feed file
+
+concurrency:
+  group: threat-feed           # never let two runs push at once
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      # Pinned to an exact commit, not a tag: a tag can be moved to different
+      # code, a commit SHA can't. To upgrade, take the new release's SHA from
+      # https://github.com/actions/checkout/releases and update both parts.
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1  # v7.0.1
+
+      - name: Build feed
+        env:
+          MODE: ${{ github.event.schedule == '23 6 * * *' && 'report' || inputs.mode || 'alerts' }}
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          WATCH: ${{ vars.WATCH }}
+        run: python3 build_feed.py
+
+      - name: Commit if changed
+        run: |
+          git config user.name "cyber-caffeine-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add feed/threat-feed.json
+          git diff --cached --quiet || (git commit -m "Update threat feed" && git push)
