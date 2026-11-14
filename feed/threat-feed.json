@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-14T13:37:40+00:00",
+ "generated_at": "2026-11-14T21:29:06+00:00",
  "news": [
   {
    "id": "news-e577b898eca3316f",
@@ -32,14 +32,7 @@
    "ransomware": false
   }
  ],
- "advisories": [
-  {
-   "id": "adv-cert-eu-224c81e757fe40ea",
-   "title": "CERT-EU: 2026-020: Critical Vulnerabilities in Citrix NetScaler ADC and NetScaler Gateway",
-   "detail": "On 12 November 2026, the Cloud Software Group published security bulletins for its Citrix products addressing 28 memory flaws in Citrix NetScaler ADC and Citrix NetScaler Gateway. One of these vulnerabilities, CVE-2026-120868, affects\u2026",
-   "url": "https://cert.europa.eu/publications/security-advisories/2026-020/"
-  }
- ],
+ "advisories": [],
  "outages": [],
  "report": {
   "date": "2026-11-14",
