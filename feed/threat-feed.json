@@ -1,0 +1,55 @@
+{
+ "generated_at": "2026-11-14T03:34:29+00:00",
+ "news": [
+  {
+   "id": "news-d8cc2172e29e81d0",
+   "title": "PostgreSQL Patches 52 Flaws, Including 22-Year-Old Bug Enabling Authenticated RCE",
+   "detail": "A type confusion flaw in PostgreSQL lets a database user who can create objects run code on the server. Updates released yesterday fix it, along with 51 other security flaws. Full protection from this flaw also requires rebuilding any\u2026",
+   "url": "https://thehackernews.com/2026/11/postgresql-patches-52-flaws-including.html"
+  },
+  {
+   "id": "news-d93f5e12f3c1794f",
+   "title": "New Mior and Skyfall Attacks Let Rogue Cloud Hosts Steal Secrets From AMD SEV-SNP VMs",
+   "detail": "Two attacks made public this week allow a malicious host to read data inside AMD SEV-SNP-protected virtual machines (VMs), which are built to keep the server's operator out. One of them, Mior, can also modify a VM's memory and fake the\u2026",
+   "url": "https://thehackernews.com/2026/11/new-mior-and-skyfall-attacks-let-rogue.html"
+  }
+ ],
+ "alerts": [
+  {
+   "id": "CVE-2026-114713",
+   "title": "CVE-2026-114713: UnrealIRCd UnrealIRCd",
+   "detail": "UnrealIRCd Improper Neutralization of Delimiters Vulnerability",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-114713",
+   "action": "Apply mitigations in accordance with vendor instructions.",
+   "ransomware": false
+  },
+  {
+   "id": "CVE-2026-123039",
+   "title": "CVE-2026-123039: Check Point Multiple Products",
+   "detail": "Check Point Multiple Products Incorrect Permission Assignment for Critical Resource Vulnerability",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-123039",
+   "action": "Apply mitigations in accordance with vendor instructions.",
+   "ransomware": false
+  }
+ ],
+ "advisories": [
+  {
+   "id": "adv-cert-eu-224c81e757fe40ea",
+   "title": "CERT-EU: 2026-020: Critical Vulnerabilities in Citrix NetScaler ADC and NetScaler Gateway",
+   "detail": "On 12 November 2026, the Cloud Software Group published security bulletins for its Citrix products addressing 28 memory flaws in Citrix NetScaler ADC and Citrix NetScaler Gateway. One of these vulnerabilities, CVE-2026-120868, affects\u2026",
+   "url": "https://cert.europa.eu/publications/security-advisories/2026-020/"
+  }
+ ],
+ "outages": [
+  {
+   "id": "m365-ce375e802ad7b39d",
+   "title": "Microsoft 365 outage",
+   "detail": "Service degradation: Users may be unable to connect to multiple Microsoft 365 services",
+   "url": "https://status.cloud.microsoft/"
+  }
+ ],
+ "report": {
+  "date": "2026-11-14",
+  "summary": "2 new actively exploited vulnerabilities in the last 48 hours."
+ }
+}
