@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-14T03:34:29+00:00",
+ "generated_at": "2026-11-14T10:56:46+00:00",
  "news": [
   {
    "id": "news-d8cc2172e29e81d0",
@@ -40,14 +40,7 @@
    "url": "https://cert.europa.eu/publications/security-advisories/2026-020/"
   }
  ],
- "outages": [
-  {
-   "id": "m365-ce375e802ad7b39d",
-   "title": "Microsoft 365 outage",
-   "detail": "Service degradation: Users may be unable to connect to multiple Microsoft 365 services",
-   "url": "https://status.cloud.microsoft/"
-  }
- ],
+ "outages": [],
  "report": {
   "date": "2026-11-14",
   "summary": "2 new actively exploited vulnerabilities in the last 48 hours."
