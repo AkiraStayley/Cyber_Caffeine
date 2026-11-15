@@ -1,17 +1,17 @@
 {
- "generated_at": "2026-11-14T21:29:06+00:00",
+ "generated_at": "2026-11-15T13:41:02+00:00",
  "news": [
   {
-   "id": "news-e577b898eca3316f",
-   "title": "Attackers Exploit UnrealIRCd Flaw That Enables Server-Level Command Injection",
-   "detail": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Friday added a high-severity security flaw impacting UnrealIRCd, an open-source Internet Relay Chat (IRC) server, to its Known Exploited Vulnerabilities (KEV) catalog,\u2026",
-   "url": "https://thehackernews.com/2026/11/attackers-exploit-unrealircd-flaw-that.html"
+   "id": "news-dabf7b9c559f7a5e",
+   "title": "Italy Fines Meta \u20ac805 Million Over Facebook's Android Gallery Access Without Explicit Consent",
+   "detail": "Meta was fined \u20ac805 million in Italy yesterday over a Facebook for Android feature that suggests photos and videos from users' phone galleries for them to post. The Garante, Italy's data protection authority, found that the feature was\u2026",
+   "url": "https://thehackernews.com/2026/11/italy-fines-meta-805-million-over.html"
   },
   {
-   "id": "news-d8cc2172e29e81d0",
-   "title": "PostgreSQL Patches 52 Flaws, Including 22-Year-Old Bug Enabling Authenticated RCE",
-   "detail": "A type confusion flaw in PostgreSQL lets a database user who can create objects run code on the server. Updates released yesterday fix it, along with 51 other security flaws. Full protection from this flaw also requires rebuilding any\u2026",
-   "url": "https://thehackernews.com/2026/11/postgresql-patches-52-flaws-including.html"
+   "id": "news-d5585df40181d87d",
+   "title": "Cursor Says Stolen Fireworks AI Key Led to Trojanized Claude Code Extension Incident",
+   "detail": "The compromise of Anthropic's official Claude Code extension on Cursor's extension marketplace was the result of the theft of an access key that was exposed in the wake of a breach targeting Fireworks AI. \"An attacker obtained an access\u2026",
+   "url": "https://thehackernews.com/2026/11/stolen-fireworks-ai-key-led-to-cursor.html"
   }
  ],
  "alerts": [
@@ -35,7 +35,7 @@
  "advisories": [],
  "outages": [],
  "report": {
-  "date": "2026-11-14",
+  "date": "2026-11-15",
   "summary": "2 new actively exploited vulnerabilities in the last 48 hours."
  }
 }
