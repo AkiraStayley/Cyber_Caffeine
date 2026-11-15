@@ -3,7 +3,8 @@ Builds feed/threat-feed.json for Cyber Caffeine. Runs inside GitHub Actions.
 Standard library only, so the workflow installs nothing.
 
 Environment variables (set by the workflow):
-    MODE               "alerts" or "report"
+    MODE               "alerts" or "report". "report" forces a new morning report;
+                       "alerts" builds one too if today's is still missing after 06:00 UTC.
     ANTHROPIC_API_KEY  optional repo secret. With it, Claude writes the morning
                        briefing; without it (or if the call fails), the briefing
                        is a plain list of the new entries.
@@ -30,15 +31,24 @@ CLAUDE_URL = "https://api.anthropic.com/v1/messages"
 MODEL = "claude-haiku-5-5"
 CVE_RE = re.compile(r"^CVE-\d{4}-\d{4,7}$")
 FEED_FILE = Path("feed/threat-feed.json")
+# Earliest hour (UTC) to build the day's report: 06:00 GMT / 07:00 BST, before the
+# tray app's default 08:05 notification all year round.
+REPORT_FROM_UTC = 6
 
 MODE = os.environ.get("MODE", "alerts")
 WATCH = [w.strip().lower() for w in os.environ.get("WATCH", "").split(",") if w.strip()]
 
 
+MAX_JSON_BYTES = 16 * 1024 * 1024  # CISA's catalogue, the largest, was 1.9 MB in Nov 2026
+
+
 def http_json(url, headers=None, data=None, timeout=30):
     req = urllib.request.Request(url, data=data, headers=headers or {})
     with urllib.request.urlopen(req, timeout=timeout) as resp:
-        return json.loads(resp.read())
+        body = resp.read(MAX_JSON_BYTES + 1)
+    if len(body) > MAX_JSON_BYTES:
+        raise RuntimeError(f"response from {url} too large")
+    return json.loads(body)
 
 
 # ------------------------------------------------------------------ outages
@@ -364,8 +374,13 @@ def main():
 
     report = old.get("report")
     news = old.get("news") or []
-    if MODE == "report" or not report:
-        report = {"date": datetime.now(timezone.utc).date().isoformat(),
+    now = datetime.now(timezone.utc)
+    # GitHub runs schedules late or skips them, so don't rely on the morning
+    # run alone: any run after REPORT_FROM_UTC builds today's report if it's missing.
+    report_missing = not report or (report.get("date") != now.date().isoformat()
+                                    and now.hour >= REPORT_FROM_UTC)
+    if MODE == "report" or report_missing:
+        report = {"date": now.date().isoformat(),
                   "summary": summarize(items)}
         try:
             news = news_headlines()

@@ -223,14 +223,17 @@ def write_report(feed: dict) -> None:
                 f'{badge}<small>{html.escape(a["detail"])}</small>{action}</li>')
     outages = (f'<h2 class="alert">Major outages now</h2>'
                f'<ul>{"".join(card(o, "outage") for o in feed["outages"])}</ul>'
-               if feed["outages"] else "")
+               if feed["outages"] else
+               '<h2>Major outages</h2>'
+               '<p class="intro">There are no major outages at the moment.</p>')
     alerts = ("".join(card(a) for a in feed["alerts"])
               or "<li>No new actively exploited vulnerabilities.</li>")
     news = (f'<h2>Today\'s headlines</h2><ul>{"".join(card(n, "news") for n in feed["news"])}</ul>'
             if feed["news"] else "")
-    advisories = (f'<h2>Government advisories</h2>'
-                  f'<ul>{"".join(card(a, "advisory") for a in feed["advisories"])}</ul>'
-                  if feed["advisories"] else "")
+    advisories = (f'<ul>{"".join(card(a, "advisory") for a in feed["advisories"])}</ul>'
+                  if feed["advisories"] else
+                  '<p class="intro">There are no new government advisories in the last 48 hours.</p>')
+    advisories = f'<h2>Government advisories</h2>{advisories}'
     summary = html.escape(feed["report_summary"])
     intro = f'<p class="intro">{summary}</p>' if summary else ""
     corners = "".join(f'<div class="corner {c}" aria-hidden="true"></div>' for c in ("tl", "tr"))

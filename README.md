@@ -3,7 +3,7 @@
 </p>
 
 <p align="center">
-  A Windows tray app that gives you one short cyber-security report each morning,
+  A Windows tray app that gives you one short cyber-security report each morning
   and tells you straight away when Microsoft 365, AWS or Google Cloud has a major outage.
 </p>
 
@@ -13,14 +13,14 @@
 
 ### Morning report
 
-At 08:05 each day (you can change the time) a report opens in your browser with four sections:
+At 08:05 each day (you can change the time) a notification tells you the morning report is ready. If you sign in after that, it appears as soon as the app starts. Click it and the report opens in your browser with four sections:
 
 1. Today's headlines: the top 2 stories from The Hacker News.
 2. Exploited vulnerabilities: flaws that attackers are known to be using right now, from CISA's Known Exploited Vulnerabilities catalogue. Each one shows what's affected and what to do. Anything used by ransomware gangs is tagged and listed first.
 3. Government advisories: serious alerts from the UK's NCSC, CERT-EU and the Canadian Centre for Cyber Security. These often arrive days before a flaw reaches CISA's list. For a PHP flaw in October 2026, the NCSC warned on the day it went public and CISA listed it five days later.
-4. Major outages: any big Microsoft 365, AWS or Google Cloud outage that is still going on.
+4. Major outages: any big Microsoft 365, AWS or Google Cloud outage that is still going on and started in the last 48 hours.
 
-Every item links to its source.
+Every item links to its source. A section with nothing new says so in one line.
 
 ### Notifications
 
@@ -32,9 +32,9 @@ Major outages are notified as soon as they're spotted, at any time of day. Minor
 
 ```
 GitHub Actions, in this repo (runs on a schedule, free)
-  ├─ twice an hour: checks CISA, NCSC, CERT-EU, the Canadian Centre,
-  │                 Microsoft 365, AWS and Google Cloud
-  └─ once a day:    also fetches headlines and writes the briefing
+  ├─ every run:                checks CISA, NCSC, CERT-EU, the Canadian Centre,
+  │                            Microsoft 365, AWS and Google Cloud
+  └─ first run after 06:00 UTC: also fetches headlines and builds the day's report
         │
         ▼
   feed/threat-feed.json   (one small file, committed only when something changes)
@@ -97,7 +97,7 @@ Settings are in `%LOCALAPPDATA%\CyberCaffeine\config.json`, created on first run
 |---|---|---|
 | `report_time` | `"08:05"` | When the morning report notification appears, in your PC's local time (24-hour). Follows the clocks changing automatically. |
 | `poll_minutes` | `15` | How often the app checks for new outages (minimum 5). The check is one small download. |
-| `max_toasts_per_poll` | `5` | Most vulnerability notifications shown at once; any extra are summed up in one. |
+| `max_toasts_per_poll` | `5` | Most advisory and vulnerability notifications shown at once; any extra are summed up in one. |
 | `feed_url` | this repo's feed | Where the app gets its data. Change it only if you run your own feed (see below). |
 
 The same folder holds the latest report (`morning_report.html`), a log (`cyber_caffeine.log`) and the list of items you've already been told about (`seen.json`).
@@ -119,8 +119,8 @@ This stops the app and removes the sign-in shortcut and the notification registr
 | No notifications | Check Windows Do not disturb / Focus is off, and that notifications are allowed for "Cyber Caffeine" in Settings → System → Notifications. |
 | Tray tooltip says "feed unreachable" | Check your internet connection. If it persists, open the `feed_url` from `config.json` in a browser; the log file has the exact error. |
 | No cup icon on notifications | Windows caches notification icons. Quit and restart the app; signing out and back in clears the cache for certain. |
-| Report didn't arrive at report time | The report is built early each morning by GitHub Actions. If that run was late, the notification follows on the next check (within 15 minutes of it finishing). Check the repo's **Actions** tab for failed runs. |
-| Want to see it working without waiting | Right-click the tray icon → **Check now**, or double-click it to open the current report. |
+| Report didn't arrive at report time | The report is built by the first GitHub Actions run after 06:00 UTC, and GitHub sometimes starts scheduled runs late. The notification follows on the app's next check once the report exists (within 15 minutes). Check the repo's **Actions** tab for late or failed runs. |
+| Want to see it working without waiting | Right-click the tray icon → **Check now** to download the latest feed straight away, or double-click it to open the current report. Check now doesn't start the GitHub job; it fetches whatever that job last produced. |
 
 ## Running your own feed
 
@@ -134,31 +134,13 @@ By default every install reads this repo's feed. To run your own (for example, t
 4. Set `feed_url` in your `config.json` to
    `https://raw.githubusercontent.com/<your-username>/Cyber_Caffeine/main/feed/threat-feed.json`.
 
-The schedule is in [.github/workflows/threat-feed.yml](.github/workflows/threat-feed.yml) (times in UTC). The morning run is at 06:23 UTC so the report is ready well before 08:05 UK time all year round; GitHub can start scheduled runs 30+ minutes late, so leave a margin if you move it.
+The schedule is in [.github/workflows/threat-feed.yml](.github/workflows/threat-feed.yml) (times in UTC): twice an hour, plus 06:23 UTC for the morning report. GitHub treats schedules as best effort, and on a quiet repo runs can be hours apart or skipped. To make up for that, any run after 06:00 UTC (07:00 UK summer time) builds the day's report if it doesn't exist yet. For a report you can rely on by a set time, trigger the workflow at that time from an external scheduler through GitHub's API.
 
 GitHub turns off scheduled workflows in public repos after 60 days without activity. The feed's own commits normally count, but it's worth checking the Actions tab now and then.
 
 ## Cost
 
 Nothing, unless you add the optional Claude briefing (about 10¢ a month). The sources cost nothing to use, and GitHub Actions is free for public repos.
-
-## Security
-
-### On your PC
-
-The app opens no network ports and holds no secrets. Its only network traffic is the HTTPS download of the feed. It treats that feed as untrusted: the download is size-capped and checked field by field, and all text is escaped before display. Links open only if they're HTTPS and on a fixed allowlist (NVD, CISA, the NCSC, CERT-EU, the Canadian Centre, the Microsoft, AWS and Google Cloud status pages, The Hacker News), and they're checked again when you click. The report page blocks all scripts and loads nothing from the internet.
-
-### In GitHub Actions
-
-The builder uses only Python's standard library, so the workflow installs nothing. Links are built in code from validated IDs and never taken from the AI. If you add an API key, only the step that needs it can see it. Pull requests can't trigger the workflow. The one action it uses, `actions/checkout`, is pinned to an exact commit.
-
-### Libraries
-
-`requirements.txt` pins each library to the version it was tested with, along with the SHA-256 fingerprint of every Windows build of that version. The installer refuses any download that doesn't match and never compiles anything from source. To upgrade a library, change its version and run `python tools/hash_requirements.py requirements.txt`.
-
-### Your GitHub account
-
-Whoever controls the repo controls what appears on screen for everyone using its feed, so protect the account with a passkey or two-factor authentication.
 
 ## Sources
 
