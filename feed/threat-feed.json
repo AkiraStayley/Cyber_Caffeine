@@ -1,17 +1,17 @@
 {
- "generated_at": "2026-11-16T07:30:41+00:00",
+ "generated_at": "2026-11-16T15:57:22+00:00",
  "news": [
   {
-   "id": "news-dabf7b9c559f7a5e",
-   "title": "Italy Fines Meta \u20ac805 Million Over Facebook's Android Gallery Access Without Explicit Consent",
-   "detail": "Meta was fined \u20ac805 million in Italy yesterday over a Facebook for Android feature that suggests photos and videos from users' phone galleries for them to post. The Garante, Italy's data protection authority, found that the feature was\u2026",
-   "url": "https://thehackernews.com/2026/11/italy-fines-meta-805-million-over.html"
+   "id": "news-a989c64e51ebb71d",
+   "title": "Six Unpatched Danfoss Refrigeration Controller Flaws Could Allow Remote Takeover Without Login",
+   "detail": "Six flaws in Danfoss AK-SM800A refrigeration controllers could let a remote attacker take over a controller without logging in, Dutch security consultancy Midnight Blue said earlier this week. No patch is available, and the researchers say\u2026",
+   "url": "https://thehackernews.com/2026/11/six-unpatched-danfoss-refrigeration.html"
   },
   {
-   "id": "news-d5585df40181d87d",
-   "title": "Cursor Says Stolen Fireworks AI Key Led to Trojanized Claude Code Extension Incident",
-   "detail": "The compromise of Anthropic's official Claude Code extension on Cursor's extension marketplace was the result of the theft of an access key that was exposed in the wake of a breach targeting Fireworks AI. \"An attacker obtained an access\u2026",
-   "url": "https://thehackernews.com/2026/11/stolen-fireworks-ai-key-led-to-cursor.html"
+   "id": "news-c4086de05142b1d9",
+   "title": "Retadup Worm Resurfaces 7 Years After Takedown to Spread CoffeeLoader Malware",
+   "detail": "Cybersecurity researchers have disclosed details of a new variant of CoffeeLoader, a malware designed to deliver additional payloads to infected machines. \"On launch, the NSIS-based installer executable dropped a file named '7z.dll' into a\u2026",
+   "url": "https://thehackernews.com/2026/11/retadup-worm-resurfaces-7-years-after.html"
   }
  ],
  "alerts": [],
