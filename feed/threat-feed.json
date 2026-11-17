@@ -1,17 +1,17 @@
 {
- "generated_at": "2026-11-17T07:30:42+00:00",
+ "generated_at": "2026-11-17T16:08:48+00:00",
  "news": [
   {
-   "id": "news-dd31e5151870eabc",
-   "title": "ConnectWise Warns ScreenConnect Attacks Continue as SCKit Targets Unpatched Systems",
-   "detail": "ConnectWise on Monday said it completed its investigation into unauthorized access targeting partner ScreenConnect environments, and recommended customers to ensure that the technician client is running version 26.6.5 or later. The company\u2026",
-   "url": "https://thehackernews.com/2026/11/connectwise-warns-screenconnect-attacks.html"
+   "id": "news-1d648e0700680ba4",
+   "title": "Researchers Detail iPhone Flaw That Let Apps Record Audio Despite Denied Microphone Permission",
+   "detail": "A now-patched flaw in Apple's audio service let apps on iPhones and iPads record audio even after the user tapped \"Don't Allow\" on the microphone prompt. The first security updates with the fix came out on August 17. Neither Apple nor the\u2026",
+   "url": "https://thehackernews.com/2026/11/researchers-detail-iphone-flaw-that-let.html"
   },
   {
-   "id": "news-7d8a94de5f64d8dd",
-   "title": "N-able Patches 17 N-central Flaws as Attackers Exploit Earlier Bugs to Deploy Crypto Miners",
-   "detail": "N-able has released a new security update to address additional critical security flaws impacting N-central. Describing N-central 2026.4 Hotfix 3 as a critical security update, the company said it includes a number of security patches and\u2026",
-   "url": "https://thehackernews.com/2026/11/n-able-patches-17-n-central-flaws-as.html"
+   "id": "news-1f9af5fe35a30d12",
+   "title": "New GitDoor and GraphDoor Backdoors Turn GitHub and SharePoint Into Covert C2 Channels",
+   "detail": "Government sectors in Asia and Africa have been targeted by an active cyber intrusion campaign that delivers to previously undocumented backdoors that leverage legitimate services like Microsoft SharePoint and GitHub for\u2026",
+   "url": "https://thehackernews.com/2026/11/new-gitdoor-and-graphdoor-backdoors.html"
   }
  ],
  "alerts": [],
