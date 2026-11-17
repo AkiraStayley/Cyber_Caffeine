@@ -1,24 +1,24 @@
 {
- "generated_at": "2026-11-16T15:57:22+00:00",
+ "generated_at": "2026-11-17T07:30:42+00:00",
  "news": [
   {
-   "id": "news-a989c64e51ebb71d",
-   "title": "Six Unpatched Danfoss Refrigeration Controller Flaws Could Allow Remote Takeover Without Login",
-   "detail": "Six flaws in Danfoss AK-SM800A refrigeration controllers could let a remote attacker take over a controller without logging in, Dutch security consultancy Midnight Blue said earlier this week. No patch is available, and the researchers say\u2026",
-   "url": "https://thehackernews.com/2026/11/six-unpatched-danfoss-refrigeration.html"
+   "id": "news-dd31e5151870eabc",
+   "title": "ConnectWise Warns ScreenConnect Attacks Continue as SCKit Targets Unpatched Systems",
+   "detail": "ConnectWise on Monday said it completed its investigation into unauthorized access targeting partner ScreenConnect environments, and recommended customers to ensure that the technician client is running version 26.6.5 or later. The company\u2026",
+   "url": "https://thehackernews.com/2026/11/connectwise-warns-screenconnect-attacks.html"
   },
   {
-   "id": "news-c4086de05142b1d9",
-   "title": "Retadup Worm Resurfaces 7 Years After Takedown to Spread CoffeeLoader Malware",
-   "detail": "Cybersecurity researchers have disclosed details of a new variant of CoffeeLoader, a malware designed to deliver additional payloads to infected machines. \"On launch, the NSIS-based installer executable dropped a file named '7z.dll' into a\u2026",
-   "url": "https://thehackernews.com/2026/11/retadup-worm-resurfaces-7-years-after.html"
+   "id": "news-7d8a94de5f64d8dd",
+   "title": "N-able Patches 17 N-central Flaws as Attackers Exploit Earlier Bugs to Deploy Crypto Miners",
+   "detail": "N-able has released a new security update to address additional critical security flaws impacting N-central. Describing N-central 2026.4 Hotfix 3 as a critical security update, the company said it includes a number of security patches and\u2026",
+   "url": "https://thehackernews.com/2026/11/n-able-patches-17-n-central-flaws-as.html"
   }
  ],
  "alerts": [],
  "advisories": [],
  "outages": [],
  "report": {
-  "date": "2026-11-16",
+  "date": "2026-11-17",
   "summary": "No new entries in CISA's Known Exploited Vulnerabilities catalog in the last 48 hours."
  }
 }
