@@ -1,17 +1,17 @@
 {
- "generated_at": "2026-11-17T19:25:20+00:00",
+ "generated_at": "2026-11-18T07:30:47+00:00",
  "news": [
   {
-   "id": "news-1d648e0700680ba4",
-   "title": "Researchers Detail iPhone Flaw That Let Apps Record Audio Despite Denied Microphone Permission",
-   "detail": "A now-patched flaw in Apple's audio service let apps on iPhones and iPads record audio even after the user tapped \"Don't Allow\" on the microphone prompt. The first security updates with the fix came out on August 17. Neither Apple nor the\u2026",
-   "url": "https://thehackernews.com/2026/11/researchers-detail-iphone-flaw-that-let.html"
+   "id": "news-533b590042a01508",
+   "title": "Attackers Compromise Microsoft's Agent Framework PyPI Package to Steal Cloud Credentials",
+   "detail": "Threat actors have compromised Microsoft's agent-framework package to push a credential stealer, according to reports from Aikido, Endor Labs, OX Security, SafeDep, Socket, StepSecurity, and Google-owned Wiz. The malicious versions, 1.26.1\u2026",
+   "url": "https://thehackernews.com/2026/11/attackers-compromise-microsofts-agent.html"
   },
   {
-   "id": "news-1f9af5fe35a30d12",
-   "title": "New GitDoor and GraphDoor Backdoors Turn GitHub and SharePoint Into Covert C2 Channels",
-   "detail": "Government sectors in Asia and Africa have been targeted by an active cyber intrusion campaign that delivers to previously undocumented backdoors that leverage legitimate services like Microsoft SharePoint and GitHub for\u2026",
-   "url": "https://thehackernews.com/2026/11/new-gitdoor-and-graphdoor-backdoors.html"
+   "id": "news-4816a5c313d508c2",
+   "title": "Russian COLD RELIC Hackers Use Stolen Google Workspace Data to Breach Second U.S. Organization",
+   "detail": "The Russia-linked cyber espionage group known as Cold Relic (formerly COLDRIVER and UNC4057) has been observed weaponizing a single cloud compromise into a launchpad for a series of linked intrusions resulting in third-party compromise.\u2026",
+   "url": "https://thehackernews.com/2026/11/russian-cold-relic-hackers-use-stolen.html"
   }
  ],
  "alerts": [
@@ -27,7 +27,7 @@
  "advisories": [],
  "outages": [],
  "report": {
-  "date": "2026-11-17",
-  "summary": "No new entries in CISA's Known Exploited Vulnerabilities catalog in the last 48 hours."
+  "date": "2026-11-18",
+  "summary": "1 new actively exploited vulnerability in the last 48 hours."
  }
 }
