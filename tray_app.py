@@ -211,6 +211,15 @@ def logo_css() -> str:
     return f":root{{--logo:url(data:image/jpeg;base64,{data})}}"
 
 
+def favicon_link() -> str:
+    """The tray cup as the browser tab icon, inline like the logo (allowed by img-src data:)."""
+    try:
+        data = base64.b64encode(ICON_FILE.read_bytes()).decode("ascii")
+    except OSError:
+        return ""
+    return f'<link rel="icon" type="image/x-icon" href="data:image/x-icon;base64,{data}">'
+
+
 def write_report(feed: dict) -> None:
     """Static local HTML; a CSP blocks all scripts and remote loads."""
     def card(a, cls=""):
@@ -240,7 +249,8 @@ def write_report(feed: dict) -> None:
     page = f"""<!doctype html><html lang="en"><head><meta charset="utf-8">
 <meta http-equiv="Content-Security-Policy" content="default-src 'none'; style-src 'unsafe-inline'; img-src data:">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Cyber Caffeine report</title>
+<title>Cyber Caffeine</title>
+{favicon_link()}
 <style>{REPORT_CSS}{logo_css()}</style></head><body>
 {corners}
 <main>
