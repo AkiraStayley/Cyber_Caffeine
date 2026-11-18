@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-18T07:30:47+00:00",
+ "generated_at": "2026-11-18T10:09:00+00:00",
  "news": [
   {
    "id": "news-533b590042a01508",
@@ -24,7 +24,14 @@
    "ransomware": false
   }
  ],
- "advisories": [],
+ "advisories": [
+  {
+   "id": "adv-cert-eu-55ffaf7ef3c49b93",
+   "title": "CERT-EU: 2026-021: High Severity Vulnerability in Java SE and OpenJDK",
+   "detail": "On 17 November 2026, Oracle and the OpenJDK project released fixes for CVE-2026-114938, a high severity vulnerability in OpenJDK which could lead, under certain circumstances, in unauthenticated Remote Code Execution (RCE). CERT-EU\u2026",
+   "url": "https://cert.europa.eu/publications/security-advisories/2026-021/"
+  }
+ ],
  "outages": [],
  "report": {
   "date": "2026-11-18",
