@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-18T15:45:11+00:00",
+ "generated_at": "2026-11-18T18:51:03+00:00",
  "news": [
   {
    "id": "news-16d1e418da7ea1b7",
@@ -25,6 +25,12 @@
   }
  ],
  "advisories": [
+  {
+   "id": "adv-cert-eu-b82fa404dbc62b4d",
+   "title": "CERT-EU: 2026-022: Critical vulnerabilities in Nginx",
+   "detail": "On 18 November 2026, F5 published an advisory addressing five vulnerabilities in NGINX that allow an unauthenticated remote attacker to execute code with the privileges of the NGINX worker process. While researchers managed to successfully\u2026",
+   "url": "https://cert.europa.eu/publications/security-advisories/2026-022/"
+  },
   {
    "id": "adv-cert-eu-55ffaf7ef3c49b93",
    "title": "CERT-EU: 2026-021: High Severity Vulnerability in Java SE and OpenJDK",
