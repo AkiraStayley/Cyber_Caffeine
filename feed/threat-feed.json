@@ -1,17 +1,17 @@
 {
- "generated_at": "2026-11-19T07:30:41+00:00",
+ "generated_at": "2026-11-19T15:50:30+00:00",
  "news": [
   {
-   "id": "news-75b5f95941280ec2",
-   "title": "PHP Warns of Critical Security Flaws Affecting All Supported Versions, Fixes Coming November 19",
-   "detail": "The maintainers of the PHP programming language on Wednesday issued an advisory announcing an upcoming security release that addresses critical flaws. The release is scheduled for November 19, 2026, between 2 and 2:30 p.m. UTC. \"These\u2026",
-   "url": "https://thehackernews.com/2026/11/php-warns-of-critical-security-flaws.html"
+   "id": "news-dcfa8134ceac9ad3",
+   "title": "PHP Fixes 7 Critical Flaws, Including Bugs That Could Allow Remote Code Execution",
+   "detail": "The PHP Foundation has released security updates to address multiple critical security flaws that could be exploited to achieve remote code execution on affected deployments, including CVE-2026-115560. The list of vulnerabilities is as\u2026",
+   "url": "https://thehackernews.com/2026/11/php-fixes-7-critical-flaws-including.html"
   },
   {
-   "id": "news-04e49dcbdb745733",
-   "title": "10-Year-Old NGINX HTTP/2 Flaw Lets Unauthenticated Attackers Execute Code on Servers",
-   "detail": "A flaw in NGINX's HTTP/2 support can allow an attacker to run code on servers with HTTP/2 enabled, without needing to log in. The decade-old flaw, CVE-2026-123007, dubbed \"nginx2root,\" has been present in NGINX's open-source code since\u2026",
-   "url": "https://thehackernews.com/2026/11/10-year-old-nginx-http2-flaw-lets.html"
+   "id": "news-63edce0941e0edb0",
+   "title": "Critical VMware vCenter Flaw (CVSS 9.8) Lets Network Attackers Bypass Authentication",
+   "detail": "A critical flaw in VMware vCenter lets an attacker with network access bypass authentication and gain unauthorized access to the system, Broadcom, which owns VMware, said in an advisory published today. Fixed versions are out for all\u2026",
+   "url": "https://thehackernews.com/2026/11/critical-vmware-vcenter-flaw-cvss-98.html"
   }
  ],
  "alerts": [
