@@ -1,17 +1,17 @@
 {
- "generated_at": "2026-11-19T01:13:03+00:00",
+ "generated_at": "2026-11-19T07:30:41+00:00",
  "news": [
   {
-   "id": "news-16d1e418da7ea1b7",
-   "title": "New EggStreme Malware Variant Goes Silent to Evade Security Tools in Government Attacks",
-   "detail": "The suspected Chinese advanced persistent threat (APT) group behind the sophisticated EggStreme malware has rebuilt its toolkit as it continues to target government organizations in the Philippines. \"When attackers are exposed, the cheap\u2026",
-   "url": "https://thehackernews.com/2026/11/eggstreme-hackers-rebuild-malware-with.html"
+   "id": "news-75b5f95941280ec2",
+   "title": "PHP Warns of Critical Security Flaws Affecting All Supported Versions, Fixes Coming November 19",
+   "detail": "The maintainers of the PHP programming language on Wednesday issued an advisory announcing an upcoming security release that addresses critical flaws. The release is scheduled for November 19, 2026, between 2 and 2:30 p.m. UTC. \"These\u2026",
+   "url": "https://thehackernews.com/2026/11/php-warns-of-critical-security-flaws.html"
   },
   {
-   "id": "news-90f84e48047fe43a",
-   "title": "New Attack Bypasses TPM Lockout to Crack Windows Hello and BitLocker PINs in Days, Not Years",
-   "detail": "On AMD-based PCs and some Intel PCs, the TPM lockout for Windows Hello and BitLocker PINs can be reset by someone who opens the PC's case, researchers at Technische Universit\u00e4t Berlin say. That leaves short PINs open to guessing. In lab\u2026",
-   "url": "https://thehackernews.com/2026/11/flash-chip-attack-bypasses-tpm-lockout.html"
+   "id": "news-04e49dcbdb745733",
+   "title": "10-Year-Old NGINX HTTP/2 Flaw Lets Unauthenticated Attackers Execute Code on Servers",
+   "detail": "A flaw in NGINX's HTTP/2 support can allow an attacker to run code on servers with HTTP/2 enabled, without needing to log in. The decade-old flaw, CVE-2026-123007, dubbed \"nginx2root,\" has been present in NGINX's open-source code since\u2026",
+   "url": "https://thehackernews.com/2026/11/10-year-old-nginx-http2-flaw-lets.html"
   }
  ],
  "alerts": [
@@ -72,7 +72,7 @@
  ],
  "outages": [],
  "report": {
-  "date": "2026-11-18",
-  "summary": "1 new actively exploited vulnerability in the last 48 hours."
+  "date": "2026-11-19",
+  "summary": "5 new actively exploited vulnerabilities in the last 48 hours."
  }
 }
