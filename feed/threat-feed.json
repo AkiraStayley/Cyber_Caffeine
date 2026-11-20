@@ -1,17 +1,17 @@
 {
- "generated_at": "2026-11-20T07:30:43+00:00",
+ "generated_at": "2026-11-20T15:33:14+00:00",
  "news": [
   {
-   "id": "news-209921156d987de0",
-   "title": "China-Linked Hackers Exploit Critical VMware vCenter Zero-Day to Gain Admin Access and Steal Data",
-   "detail": "The suspected China-nexus cyber espionage group known as Armory Castle (formerly UNC5221) has been attributed to the zero-day exploitation of a critical security flaw in VMware vCenter Server in early September 2026. The vulnerability,\u2026",
-   "url": "https://thehackernews.com/2026/11/china-linked-hackers-exploit-critical.html"
+   "id": "news-c7b209f2aed89407",
+   "title": "Linux KVM Flaw CVE-2026-99312 Lets Guest VMs Access Host Memory on AMD Hosts",
+   "detail": "A flaw in KVM, the hypervisor built into the Linux kernel, let researchers read about 127 GB of a cloud server's memory from inside a virtual machine of their own on DigitalOcean. On a shared server, that memory can include other\u2026",
+   "url": "https://thehackernews.com/2026/11/new-linux-kvm-flaw-cve-2026-99312-lets.html"
   },
   {
-   "id": "news-4b0033536e5760bb",
-   "title": "New Unpatched Windows 0-Day FastUnlock Lets Someone Holding a Locked PC Run Programs on It",
-   "detail": "A newly disclosed unpatched zero-day technique called FastUnlock lets someone with physical access to a locked Windows computer start programs without signing in. Whoever uses it gets only a limited account, not administrator control of\u2026",
-   "url": "https://thehackernews.com/2026/11/new-unpatched-windows-0-day-fastunlock.html"
+   "id": "news-b18719ed382d67da",
+   "title": "The Path to AI Autonomy in the SOC",
+   "detail": "Security leaders are about to hand AI agents a lot more authority. In a recent a16z survey of CISOs at organizations with more than 1,000 employees, 36% said they are comfortable today letting AI agents act autonomously on low-risk\u2026",
+   "url": "https://thehackernews.com/2026/11/the-path-to-ai-autonomy-in-soc.html"
   }
  ],
  "alerts": [
@@ -54,12 +54,6 @@
    "title": "CERT-EU: 2026-022: Critical vulnerabilities in Nginx",
    "detail": "On 18 November 2026, F5 published an advisory addressing five vulnerabilities in NGINX that allow an unauthenticated remote attacker to execute code with the privileges of the NGINX worker process. While researchers managed to successfully\u2026",
    "url": "https://cert.europa.eu/publications/security-advisories/2026-022/"
-  },
-  {
-   "id": "adv-cert-eu-55ffaf7ef3c49b93",
-   "title": "CERT-EU: 2026-021: High Severity Vulnerability in Java SE and OpenJDK",
-   "detail": "On 17 November 2026, Oracle and the OpenJDK project released fixes for CVE-2026-114938, a high severity vulnerability in OpenJDK which could lead, under certain circumstances, in unauthenticated Remote Code Execution (RCE). CERT-EU\u2026",
-   "url": "https://cert.europa.eu/publications/security-advisories/2026-021/"
   }
  ],
  "outages": [],
