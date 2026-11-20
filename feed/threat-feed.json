@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-20T15:33:14+00:00",
+ "generated_at": "2026-11-20T22:49:44+00:00",
  "news": [
   {
    "id": "news-c7b209f2aed89407",
@@ -15,6 +15,38 @@
   }
  ],
  "alerts": [
+  {
+   "id": "CVE-2026-129448",
+   "title": "CVE-2026-129448: Apache Roller",
+   "detail": "Apache Roller Deserialization of Untrusted Data Vulnerability",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-129448",
+   "action": "Apply mitigations in accordance with vendor instructions.",
+   "ransomware": false
+  },
+  {
+   "id": "CVE-2026-123890",
+   "title": "CVE-2026-123890: Broadcom VMware vCenter",
+   "detail": "VMWare vCenter Authentication Bypass Using an Alternate Path or Channel Vulnerability",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-123890",
+   "action": "Apply mitigations in accordance with vendor instructions.",
+   "ransomware": false
+  },
+  {
+   "id": "CVE-2025-42884",
+   "title": "CVE-2025-42884: SAP NetWeaver",
+   "detail": "SAP NetWeaver Improper Neutralization of Special Elements in Data Query Logic Vulnerability",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-42884",
+   "action": "Apply mitigations in accordance with vendor instructions.",
+   "ransomware": false
+  },
+  {
+   "id": "CVE-2026-76466",
+   "title": "CVE-2026-76466: Cisco Expressway Series",
+   "detail": "Cisco Expressway Series Use of Hard-coded Credentials Vulnerability",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-76466",
+   "action": "Apply mitigations in accordance with vendor instructions.",
+   "ransomware": false
+  },
   {
    "id": "CVE-2024-10441",
    "title": "CVE-2024-10441: Synology DiskStation Manager (DSM)",
@@ -48,14 +80,7 @@
    "ransomware": false
   }
  ],
- "advisories": [
-  {
-   "id": "adv-cert-eu-b82fa404dbc62b4d",
-   "title": "CERT-EU: 2026-022: Critical vulnerabilities in Nginx",
-   "detail": "On 18 November 2026, F5 published an advisory addressing five vulnerabilities in NGINX that allow an unauthenticated remote attacker to execute code with the privileges of the NGINX worker process. While researchers managed to successfully\u2026",
-   "url": "https://cert.europa.eu/publications/security-advisories/2026-022/"
-  }
- ],
+ "advisories": [],
  "outages": [],
  "report": {
   "date": "2026-11-20",
