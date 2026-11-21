@@ -1,17 +1,17 @@
 {
- "generated_at": "2026-11-21T03:58:03+00:00",
+ "generated_at": "2026-11-21T07:30:43+00:00",
  "news": [
   {
-   "id": "news-c7b209f2aed89407",
-   "title": "Linux KVM Flaw CVE-2026-99312 Lets Guest VMs Access Host Memory on AMD Hosts",
-   "detail": "A flaw in KVM, the hypervisor built into the Linux kernel, let researchers read about 127 GB of a cloud server's memory from inside a virtual machine of their own on DigitalOcean. On a shared server, that memory can include other\u2026",
-   "url": "https://thehackernews.com/2026/11/new-linux-kvm-flaw-cve-2026-99312-lets.html"
+   "id": "news-b44c0a854e15b185",
+   "title": "WhatsApp Patches 3 Security Flaws, Including Android Bug Suspected of Use in Scams",
+   "detail": "Meta-owned WhatsApp has addressed security vulnerabilities, including one impacting its Android app that it suspects may have been exploited in connection with scam messages. The vulnerability, tracked as CVE-2026-23871, has been described\u2026",
+   "url": "https://thehackernews.com/2026/11/whatsapp-patches-3-security-flaws.html"
   },
   {
-   "id": "news-b18719ed382d67da",
-   "title": "The Path to AI Autonomy in the SOC",
-   "detail": "Security leaders are about to hand AI agents a lot more authority. In a recent a16z survey of CISOs at organizations with more than 1,000 employees, 36% said they are comfortable today letting AI agents act autonomously on low-risk\u2026",
-   "url": "https://thehackernews.com/2026/11/the-path-to-ai-autonomy-in-soc.html"
+   "id": "news-0b4042589720c604",
+   "title": "Bazuka Android Malware Uses Fake Screen Overlays to Hide Credential Theft and Device Control",
+   "detail": "Cybersecurity researchers have disclosed details of a previously unknown Android malware framework called Bazuka that offers large language model (LLM) integration for victim management and control at scale. Dutch mobile security company\u2026",
+   "url": "https://thehackernews.com/2026/11/bazuka-android-malware-uses-fake-screen.html"
   }
  ],
  "alerts": [
@@ -51,7 +51,7 @@
  "advisories": [],
  "outages": [],
  "report": {
-  "date": "2026-11-20",
+  "date": "2026-11-21",
   "summary": "4 new actively exploited vulnerabilities in the last 48 hours."
  }
 }
