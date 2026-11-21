@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-20T22:49:44+00:00",
+ "generated_at": "2026-11-21T03:58:03+00:00",
  "news": [
   {
    "id": "news-c7b209f2aed89407",
@@ -44,38 +44,6 @@
    "title": "CVE-2026-76466: Cisco Expressway Series",
    "detail": "Cisco Expressway Series Use of Hard-coded Credentials Vulnerability",
    "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-76466",
-   "action": "Apply mitigations in accordance with vendor instructions.",
-   "ransomware": false
-  },
-  {
-   "id": "CVE-2024-10441",
-   "title": "CVE-2024-10441: Synology DiskStation Manager (DSM)",
-   "detail": "Synology DiskStation Manager (DSM) Improper Encoding or Escaping of Output Vulnerability",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-10441",
-   "action": "Apply mitigations in accordance with vendor instructions.",
-   "ransomware": false
-  },
-  {
-   "id": "CVE-2026-40217",
-   "title": "CVE-2026-40217: BerriAI LiteLLM",
-   "detail": "BerriAI LiteLLM Unprotected Alternate Channel Vulnerability",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-40217",
-   "action": "Apply mitigations in accordance with vendor instructions.",
-   "ransomware": false
-  },
-  {
-   "id": "CVE-2026-90817",
-   "title": "CVE-2026-90817: Vanderbilt University Research Electronic Data Capture (REDCap)",
-   "detail": "Vanderbilt University Research Electronic Data Capture (REDCap) Code Injection Vulnerability",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-90817",
-   "action": "Apply mitigations in accordance with vendor instructions.",
-   "ransomware": false
-  },
-  {
-   "id": "CVE-2026-90436",
-   "title": "CVE-2026-90436: Apache Axis",
-   "detail": "Apache Axis Unsafe Reflection Vulnerability",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-90436",
    "action": "Apply mitigations in accordance with vendor instructions.",
    "ransomware": false
   }
