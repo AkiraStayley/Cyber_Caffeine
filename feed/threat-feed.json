@@ -1,17 +1,17 @@
 {
- "generated_at": "2026-11-21T07:30:43+00:00",
+ "generated_at": "2026-11-21T14:44:21+00:00",
  "news": [
   {
-   "id": "news-b44c0a854e15b185",
-   "title": "WhatsApp Patches 3 Security Flaws, Including Android Bug Suspected of Use in Scams",
-   "detail": "Meta-owned WhatsApp has addressed security vulnerabilities, including one impacting its Android app that it suspects may have been exploited in connection with scam messages. The vulnerability, tracked as CVE-2026-23871, has been described\u2026",
-   "url": "https://thehackernews.com/2026/11/whatsapp-patches-3-security-flaws.html"
+   "id": "news-059e30cfca7341a0",
+   "title": "A Single Malicious Webpage Let Researchers Hijack Meta Muse and Access Private Chats",
+   "detail": "A malicious webpage could extract a Meta Muse user's private conversations and stored memories from the assistant without triggering any approval prompt, researchers have shown. The same attack could be extended to reach the credentials\u2026",
+   "url": "https://thehackernews.com/2026/11/a-single-malicious-webpage-let.html"
   },
   {
-   "id": "news-0b4042589720c604",
-   "title": "Bazuka Android Malware Uses Fake Screen Overlays to Hide Credential Theft and Device Control",
-   "detail": "Cybersecurity researchers have disclosed details of a previously unknown Android malware framework called Bazuka that offers large language model (LLM) integration for victim management and control at scale. Dutch mobile security company\u2026",
-   "url": "https://thehackernews.com/2026/11/bazuka-android-malware-uses-fake-screen.html"
+   "id": "news-3b426a1ae4872b68",
+   "title": "GnuPG Warns Critical GPGME Flaw Could Expose App Data via Malicious OpenPGP Keys",
+   "detail": "A malicious OpenPGP key with an unusually long user ID can trigger a critical memory bug in GPGME, the standard library that programs use to work with GnuPG. The GnuPG project warned yesterday that the flaw could be used to steal data from\u2026",
+   "url": "https://thehackernews.com/2026/11/gnupg-warns-critical-gpgme-flaw-could.html"
   }
  ],
  "alerts": [
