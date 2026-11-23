@@ -1,24 +1,11 @@
 {
- "generated_at": "2026-11-23T01:47:45+00:00",
- "news": [
-  {
-   "id": "news-6d087c898942cc0c",
-   "title": "OpenRouter Drops 3 Providers After Researchers Catch Months of Prompt Theft at AI Hosting Firms",
-   "detail": "Attackers stole data from inside three AI inference providers for months, and none of the three knew until researchers told them, the industrial cybersecurity company Dragos said this week. Some of the stolen requests were flagged as Zero\u2026",
-   "url": "https://thehackernews.com/2026/11/openrouter-drops-3-providers-after.html"
-  },
-  {
-   "id": "news-a3c63e958cb92eef",
-   "title": "Researchers Demonstrate Ghostscript Sandbox-Escape RCE via Crafted File Uploads in Popular Apps",
-   "detail": "A now-patched flaw in Ghostscript allows a crafted file to escape the program's security sandbox and run commands on the server that processes it. Ghostscript is the interpreter that many Linux servers use to convert uploaded PDFs,\u2026",
-   "url": "https://thehackernews.com/2026/11/researchers-demonstrate-ghostscript.html"
-  }
- ],
+ "generated_at": "2026-11-23T07:30:43+00:00",
+ "news": [],
  "alerts": [],
  "advisories": [],
  "outages": [],
  "report": {
-  "date": "2026-11-22",
-  "summary": "4 new actively exploited vulnerabilities in the last 48 hours."
+  "date": "2026-11-23",
+  "summary": "No new entries in CISA's Known Exploited Vulnerabilities catalog in the last 48 hours."
  }
 }
