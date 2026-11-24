@@ -1,17 +1,17 @@
 {
- "generated_at": "2026-11-24T06:05:49+00:00",
+ "generated_at": "2026-11-24T07:30:44+00:00",
  "news": [
   {
-   "id": "news-5495a06dee26529f",
-   "title": "Webworm Suspected of Modifying SoftEther VPN to Evade Detection and Hide Remote Access",
-   "detail": "The China-aligned threat actor known as Webworm is suspected to be using a custom version of the open-source SoftEther VPN Bridge tool in an attempt to remove recognizable detection fingerprints, while disguising it as network-monitoring\u2026",
-   "url": "https://thehackernews.com/2026/11/webworm-suspected-of-modifying.html"
+   "id": "news-b0d72916ebeceea8",
+   "title": "OpenAI and Cisco Unveil AI-Assisted Linux Security Tool to Block Exploits Before Patching",
+   "detail": "OpenAI and Cisco have teamed up to launch Shirudo (meaning \"shield\" in Japanese), an open-source Linux runtime that allows artificial intelligence (AI) agents to defend systems without downtime. \"It lets agents write dynamic eBPF controls\u2026",
+   "url": "https://thehackernews.com/2026/11/openai-and-cisco-unveil-ai-assisted.html"
   },
   {
-   "id": "news-a75fd36abba00688",
-   "title": "\u26a1 Weekly Recap: VMware 0-Day, Java4Shell, NGINX2Root, Ruby2Shell, and a Whole Lot of Shell Trouble",
-   "detail": "A stolen key. A trusted message. A routine update. None of these looks like the start of a major security problem. That's partly why they work. Attackers don't always need to break down a door. Sometimes they just use one that's already\u2026",
-   "url": "https://thehackernews.com/2026/11/weekly-recap-vmware-0-day-java4shell.html"
+   "id": "news-d70285cdacc0c3a7",
+   "title": "Hackers Exploit N-able MailAssure Flaw While AI Agents Exploit MONAI Label Zero-Day",
+   "detail": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Monday added two flaws impacting N-able MailAssure and MONAI Label to its Known Exploited Vulnerabilities (KEV) catalog, citing evidence of active exploitation. The\u2026",
+   "url": "https://thehackernews.com/2026/11/hackers-exploit-n-able-mailassure-flaw.html"
   }
  ],
  "alerts": [
