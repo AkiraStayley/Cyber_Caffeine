@@ -1,17 +1,17 @@
 {
- "generated_at": "2026-11-24T07:30:44+00:00",
+ "generated_at": "2026-11-24T17:52:28+00:00",
  "news": [
   {
-   "id": "news-b0d72916ebeceea8",
-   "title": "OpenAI and Cisco Unveil AI-Assisted Linux Security Tool to Block Exploits Before Patching",
-   "detail": "OpenAI and Cisco have teamed up to launch Shirudo (meaning \"shield\" in Japanese), an open-source Linux runtime that allows artificial intelligence (AI) agents to defend systems without downtime. \"It lets agents write dynamic eBPF controls\u2026",
-   "url": "https://thehackernews.com/2026/11/openai-and-cisco-unveil-ai-assisted.html"
+   "id": "news-9582e29a3fdc5bee",
+   "title": "Iran-Aligned Volant Manticore Uses IPFS-Based KuboShell Backdoor in Espionage Campaigns",
+   "detail": "A previously undocumented Iran-aligned cyber espionage group called Volant Manticore has targeted telecommunications companies, airlines, and critical infrastructure in Cyprus. Central to the group's operations is a backdoor called\u2026",
+   "url": "https://thehackernews.com/2026/11/iran-aligned-volant-manticore-uses-ipfs.html"
   },
   {
-   "id": "news-d70285cdacc0c3a7",
-   "title": "Hackers Exploit N-able MailAssure Flaw While AI Agents Exploit MONAI Label Zero-Day",
-   "detail": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Monday added two flaws impacting N-able MailAssure and MONAI Label to its Known Exploited Vulnerabilities (KEV) catalog, citing evidence of active exploitation. The\u2026",
-   "url": "https://thehackernews.com/2026/11/hackers-exploit-n-able-mailassure-flaw.html"
+   "id": "news-aa014f4b55f462a9",
+   "title": "VMware vCenter Hit by Another Critical 9.8-Rated Auth Bypass Flaw After Zero-Day Exploitation",
+   "detail": "Broadcom has shipped patches to address 23 vulnerabilities impacting VMware ESX, vCenter, Workstation, Fusion, and Avi Load Balancer, including one critical bug that could be abused to bypass authentication. The critical vulnerability,\u2026",
+   "url": "https://thehackernews.com/2026/11/vmware-vcenter-hit-by-another-critical.html"
   }
  ],
  "alerts": [
