@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-23T22:15:21+00:00",
+ "generated_at": "2026-11-24T06:05:49+00:00",
  "news": [
   {
    "id": "news-5495a06dee26529f",
@@ -35,7 +35,7 @@
  "advisories": [],
  "outages": [],
  "report": {
-  "date": "2026-11-23",
-  "summary": "No new entries in CISA's Known Exploited Vulnerabilities catalog in the last 48 hours."
+  "date": "2026-11-24",
+  "summary": "2 new actively exploited vulnerabilities in the last 48 hours."
  }
 }
