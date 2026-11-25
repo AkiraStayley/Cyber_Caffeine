@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-25T17:20:13+00:00",
+ "generated_at": "2026-11-25T20:12:35+00:00",
  "news": [
   {
    "id": "news-27873297949c895b",
@@ -20,6 +20,78 @@
    "title": "CVE-2026-103406: Hewlett Packard Enterprise (HPE) Juniper Session Smart Conductor and Session Smart Router",
    "detail": "Hewlett Packard Enterprise (HPE) Juniper Session Smart Conductor and Session Smart Router OS Command Injection Vulnerability",
    "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-103406",
+   "action": "Apply mitigations in accordance with vendor instructions.",
+   "ransomware": false
+  },
+  {
+   "id": "CVE-2026-133469",
+   "title": "CVE-2026-133469: Vates Xen Orchestra",
+   "detail": "Vates Xen Orchestra Improper Validation of Specified Type of Input Vulnerability",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-133469",
+   "action": "Apply mitigations in accordance with vendor instructions.",
+   "ransomware": false
+  },
+  {
+   "id": "CVE-2025-41450",
+   "title": "CVE-2025-41450: Danfoss AK-SM 800A Series",
+   "detail": "Danfoss AK-SM 800A Series Improper Authentication Vulnerability",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-41450",
+   "action": "Apply mitigations in accordance with vendor instructions.",
+   "ransomware": false
+  },
+  {
+   "id": "CVE-2023-25914",
+   "title": "CVE-2023-25914: Danfoss AK-SM 800A Series",
+   "detail": "Danfoss AK-SM 800A Series Path Traversal Vulnerability",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2023-25914",
+   "action": "Apply mitigations in accordance with vendor instructions.",
+   "ransomware": false
+  },
+  {
+   "id": "CVE-2023-25915",
+   "title": "CVE-2023-25915: Danfoss AK-SM 800A Series",
+   "detail": "Danfoss AK-SM 800A Series Improper Input Validation Vulnerability",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2023-25915",
+   "action": "Apply mitigations in accordance with vendor instructions.",
+   "ransomware": false
+  },
+  {
+   "id": "CVE-2026-133324",
+   "title": "CVE-2026-133324: Mitel MiCollab",
+   "detail": "Mitel MiCollab Not Failing Securely Vulnerability",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-133324",
+   "action": "Apply mitigations in accordance with vendor instructions.",
+   "ransomware": false
+  },
+  {
+   "id": "CVE-2026-133275",
+   "title": "CVE-2026-133275: Mitel MiCollab",
+   "detail": "Mitel MiCollab Unrestricted Upload of File with Dangerous Type Vulnerability",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-133275",
+   "action": "Apply mitigations in accordance with vendor instructions.",
+   "ransomware": false
+  },
+  {
+   "id": "CVE-2026-133311",
+   "title": "CVE-2026-133311: Mitel MiCollab",
+   "detail": "Mitel MiCollab Weak Authentication Vulnerability",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-133311",
+   "action": "Apply mitigations in accordance with vendor instructions.",
+   "ransomware": false
+  },
+  {
+   "id": "CVE-2026-133303",
+   "title": "CVE-2026-133303: Mitel MiCollab",
+   "detail": "Mitel MiCollab XML Injection Vulnerability",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-133303",
+   "action": "Apply mitigations in accordance with vendor instructions.",
+   "ransomware": false
+  },
+  {
+   "id": "CVE-2026-133323",
+   "title": "CVE-2026-133323: Mitel MiCollab",
+   "detail": "Mitel MiCollab OS Command Injection Vulnerability",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-133323",
    "action": "Apply mitigations in accordance with vendor instructions.",
    "ransomware": false
   },
