@@ -1,17 +1,17 @@
 {
- "generated_at": "2026-11-25T01:37:03+00:00",
+ "generated_at": "2026-11-25T07:30:42+00:00",
  "news": [
   {
-   "id": "news-9582e29a3fdc5bee",
-   "title": "Iran-Aligned Volant Manticore Uses IPFS-Based KuboShell Backdoor in Espionage Campaigns",
-   "detail": "A previously undocumented Iran-aligned cyber espionage group called Volant Manticore has targeted telecommunications companies, airlines, and critical infrastructure in Cyprus. Central to the group's operations is a backdoor called\u2026",
-   "url": "https://thehackernews.com/2026/11/iran-aligned-volant-manticore-uses-ipfs.html"
+   "id": "news-d5f3ce6a4d9a56a9",
+   "title": "Hackers Compromise 24 Check Point Management Servers in Suspected AI-Driven Attack Campaign",
+   "detail": "An unknown threat actor has been using artificial intelligence (AI)-driven offensive tooling in a campaign targeting Check Point Security Management servers, impacting 22 distinct organizations across the world. The intrusion activity,\u2026",
+   "url": "https://thehackernews.com/2026/11/hackers-compromise-24-check-point.html"
   },
   {
-   "id": "news-aa014f4b55f462a9",
-   "title": "VMware vCenter Hit by Another Critical 9.8-Rated Auth Bypass Flaw After Zero-Day Exploitation",
-   "detail": "Broadcom has shipped patches to address 23 vulnerabilities impacting VMware ESX, vCenter, Workstation, Fusion, and Avi Load Balancer, including one critical bug that could be abused to bypass authentication. The critical vulnerability,\u2026",
-   "url": "https://thehackernews.com/2026/11/vmware-vcenter-hit-by-another-critical.html"
+   "id": "news-da2703c97fc2d132",
+   "title": "Com-Affiliated Hackers Hijack Cloud Accounts via Vishing for Data Theft and Extortion",
+   "detail": "Palo Alto Networks Unit 42 has disclosed that it's tracking and has responded to \"numerous waves of vishing attacks\" orchestrated by Com-affiliated threat actors since August 2026 that have led to data theft and extortion attempts. The\u2026",
+   "url": "https://thehackernews.com/2026/11/com-affiliated-hackers-hijack-cloud.html"
   }
  ],
  "alerts": [
@@ -59,7 +59,7 @@
  "advisories": [],
  "outages": [],
  "report": {
-  "date": "2026-11-24",
-  "summary": "2 new actively exploited vulnerabilities in the last 48 hours."
+  "date": "2026-11-25",
+  "summary": "5 new actively exploited vulnerabilities in the last 48 hours."
  }
 }
