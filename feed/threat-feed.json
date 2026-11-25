@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-24T17:52:28+00:00",
+ "generated_at": "2026-11-25T01:37:03+00:00",
  "news": [
   {
    "id": "news-9582e29a3fdc5bee",
@@ -15,6 +15,30 @@
   }
  ],
  "alerts": [
+  {
+   "id": "CVE-2026-132224",
+   "title": "CVE-2026-132224: Optimizely Web Experimentation",
+   "detail": "Optimizely Web Experimentation External Control of Critical State Data Vulnerability",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-132224",
+   "action": "Apply mitigations in accordance with vendor instructions.",
+   "ransomware": false
+  },
+  {
+   "id": "CVE-2026-131914",
+   "title": "CVE-2026-131914: Idunno AntiCsrf",
+   "detail": "Idunno AntiCsrf Deserialization of Untrusted Data Vulnerability",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-131914",
+   "action": "Apply mitigations in accordance with vendor instructions.",
+   "ransomware": false
+  },
+  {
+   "id": "CVE-2026-132165",
+   "title": "CVE-2026-132165: Drupal Core",
+   "detail": "Drupal Core Remote Code Execution Vulnerability",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-132165",
+   "action": "Apply mitigations in accordance with vendor instructions.",
+   "ransomware": false
+  },
   {
    "id": "CVE-2026-133968",
    "title": "CVE-2026-133968: Project MONAI MONAI Label",
