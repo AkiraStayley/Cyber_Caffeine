@@ -1,20 +1,28 @@
 {
- "generated_at": "2026-11-25T07:30:42+00:00",
+ "generated_at": "2026-11-25T17:20:13+00:00",
  "news": [
   {
-   "id": "news-d5f3ce6a4d9a56a9",
-   "title": "Hackers Compromise 24 Check Point Management Servers in Suspected AI-Driven Attack Campaign",
-   "detail": "An unknown threat actor has been using artificial intelligence (AI)-driven offensive tooling in a campaign targeting Check Point Security Management servers, impacting 22 distinct organizations across the world. The intrusion activity,\u2026",
-   "url": "https://thehackernews.com/2026/11/hackers-compromise-24-check-point.html"
+   "id": "news-27873297949c895b",
+   "title": "Hackers Exploit Two GeoServer Flaws as Researchers Warn of Unauthenticated RCE Chains",
+   "detail": "Threat actors are actively exploiting two newly patched security flaws in GeoServer, according to watchTowr. The vulnerabilities in question are CVE-2026-120705 and CVE-2026-129243, details of which are below - CVE-2026-120705 (CVSS score:\u2026",
+   "url": "https://thehackernews.com/2026/11/hackers-exploit-two-geoserver-flaws-as.html"
   },
   {
-   "id": "news-da2703c97fc2d132",
-   "title": "Com-Affiliated Hackers Hijack Cloud Accounts via Vishing for Data Theft and Extortion",
-   "detail": "Palo Alto Networks Unit 42 has disclosed that it's tracking and has responded to \"numerous waves of vishing attacks\" orchestrated by Com-affiliated threat actors since August 2026 that have led to data theft and extortion attempts. The\u2026",
-   "url": "https://thehackernews.com/2026/11/com-affiliated-hackers-hijack-cloud.html"
+   "id": "news-b72d4a699599c9ac",
+   "title": "U.S. Treasury's Financial Crimes Agency Takes Some Systems Offline After Cyber Intrusion",
+   "detail": "The U.S. Treasury Department's Financial Crimes Enforcement Network (FinCEN) has been hit by a cybersecurity incident that resulted in \"unauthorized access to a limited subset of its systems,\" the bureau said on Tuesday. As a precaution,\u2026",
+   "url": "https://thehackernews.com/2026/11/us-treasurys-fincen-takes-some-systems.html"
   }
  ],
  "alerts": [
+  {
+   "id": "CVE-2026-103406",
+   "title": "CVE-2026-103406: Hewlett Packard Enterprise (HPE) Juniper Session Smart Conductor and Session Smart Router",
+   "detail": "Hewlett Packard Enterprise (HPE) Juniper Session Smart Conductor and Session Smart Router OS Command Injection Vulnerability",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-103406",
+   "action": "Apply mitigations in accordance with vendor instructions.",
+   "ransomware": false
+  },
   {
    "id": "CVE-2026-132224",
    "title": "CVE-2026-132224: Optimizely Web Experimentation",
@@ -60,6 +68,6 @@
  "outages": [],
  "report": {
   "date": "2026-11-25",
-  "summary": "5 new actively exploited vulnerabilities in the last 48 hours."
+  "summary": "6 new actively exploited vulnerabilities in the last 48 hours."
  }
 }
