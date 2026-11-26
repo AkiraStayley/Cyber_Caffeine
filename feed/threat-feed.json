@@ -1,17 +1,17 @@
 {
- "generated_at": "2026-11-26T02:51:24+00:00",
+ "generated_at": "2026-11-26T07:30:42+00:00",
  "news": [
   {
-   "id": "news-27873297949c895b",
-   "title": "Hackers Exploit Two GeoServer Flaws as Researchers Warn of Unauthenticated RCE Chains",
-   "detail": "Threat actors are actively exploiting two newly patched security flaws in GeoServer, according to watchTowr. The vulnerabilities in question are CVE-2026-120705 and CVE-2026-129243, details of which are below - CVE-2026-120705 (CVSS score:\u2026",
-   "url": "https://thehackernews.com/2026/11/hackers-exploit-two-geoserver-flaws-as.html"
+   "id": "news-5e5b0d3bb248d414",
+   "title": "1Password Hacked, Customer Data and Source Code Stolen in GitHub Account Breach",
+   "detail": "Popular password management software 1Password on Wednesday disclosed a security incident involving its backend systems that led to the unauthorized access of some customer information, but emphasized that customer password vaults and\u2026",
+   "url": "https://thehackernews.com/2026/11/1password-hacked-customer-data-and.html"
   },
   {
-   "id": "news-b72d4a699599c9ac",
-   "title": "U.S. Treasury's Financial Crimes Agency Takes Some Systems Offline After Cyber Intrusion",
-   "detail": "The U.S. Treasury Department's Financial Crimes Enforcement Network (FinCEN) has been hit by a cybersecurity incident that resulted in \"unauthorized access to a limited subset of its systems,\" the bureau said on Tuesday. As a precaution,\u2026",
-   "url": "https://thehackernews.com/2026/11/us-treasurys-fincen-takes-some-systems.html"
+   "id": "news-8720d53f46442204",
+   "title": "13 Malicious NuGet Packages Turn Fake .NET Job Assessments Into Malware Delivery Traps",
+   "detail": "Cybersecurity researchers have discovered 13 malicious NuGet packages that are designed to target Windows .NET developers under the guise of a fake take-home job assessment. \"Most of the packages pose as WinUI 3 and WPF [Windows\u2026",
+   "url": "https://thehackernews.com/2026/11/13-malicious-nuget-packages-turn-fake.html"
   }
  ],
  "alerts": [
@@ -123,7 +123,7 @@
  "advisories": [],
  "outages": [],
  "report": {
-  "date": "2026-11-25",
-  "summary": "6 new actively exploited vulnerabilities in the last 48 hours."
+  "date": "2026-11-26",
+  "summary": "13 new actively exploited vulnerabilities in the last 48 hours."
  }
 }
