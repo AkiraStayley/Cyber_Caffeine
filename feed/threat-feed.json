@@ -1,17 +1,17 @@
 {
- "generated_at": "2026-11-27T04:14:44+00:00",
+ "generated_at": "2026-11-27T07:30:43+00:00",
  "news": [
   {
-   "id": "news-0574110d7d17666e",
-   "title": "North Korea-Linked PolinRider Poisons Over 7,600 GitHub Repositories to Spread Malware",
-   "detail": "The threat actors behind the PolinRider campaign have been observed planting a Python loader in GitHub repositories, as evidence emerges that the activity may have started as far back as February 2025. \"The loader hides in a small utils\u2026",
-   "url": "https://thehackernews.com/2026/11/north-korea-linked-polinrider-poisons.html"
+   "id": "news-979e934b372966d4",
+   "title": "Switzerland Confirms AI-Assisted Cyberattacks Breached Critical Infrastructure Operators",
+   "detail": "Attackers using AI agents have broken into computer systems at Swiss organizations in four of five confirmed attacks, the first such cases in the country, the country's cybersecurity agency said yesterday. Three of the attacks targeted\u2026",
+   "url": "https://thehackernews.com/2026/11/switzerland-confirms-ai-assisted.html"
   },
   {
-   "id": "news-54cc21ceab246c65",
-   "title": "Most Wanted: The Phishing Kits and Techniques Getting Past Security Controls",
-   "detail": "Every phishing attack has to get past email security, web filtering, and safe browsing before it reaches an employee. Some kits manage that far more often than others, and those are the kits that security teams need to know about. At Push\u2026",
-   "url": "https://thehackernews.com/2026/11/most-wanted-phishing-kits-and.html"
+   "id": "news-27f1645ed04a4e7e",
+   "title": "Unpatched Cacti Zero-Day Enables RCE in Just Four HTTP Requests via Guest Access",
+   "detail": "Details have emerged about a new zero-day vulnerability in Cacti, an open-source network monitoring tool, that could be exploited to achieve remote code execution. The proof-of-concept (PoC) exploit, which has yet to be assigned a CVE\u2026",
+   "url": "https://thehackernews.com/2026/11/unpatched-cacti-zero-day-enables-rce-in.html"
   }
  ],
  "alerts": [
@@ -99,7 +99,7 @@
  "advisories": [],
  "outages": [],
  "report": {
-  "date": "2026-11-26",
-  "summary": "13 new actively exploited vulnerabilities in the last 48 hours."
+  "date": "2026-11-27",
+  "summary": "10 new actively exploited vulnerabilities in the last 48 hours."
  }
 }
