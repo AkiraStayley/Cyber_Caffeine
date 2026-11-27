@@ -1,17 +1,17 @@
 {
- "generated_at": "2026-11-27T07:30:43+00:00",
+ "generated_at": "2026-11-27T16:45:15+00:00",
  "news": [
   {
-   "id": "news-979e934b372966d4",
-   "title": "Switzerland Confirms AI-Assisted Cyberattacks Breached Critical Infrastructure Operators",
-   "detail": "Attackers using AI agents have broken into computer systems at Swiss organizations in four of five confirmed attacks, the first such cases in the country, the country's cybersecurity agency said yesterday. Three of the attacks targeted\u2026",
-   "url": "https://thehackernews.com/2026/11/switzerland-confirms-ai-assisted.html"
+   "id": "news-c60eeeaa334b435f",
+   "title": "Microsoft Store App Found Delivering Vinci RAT Capable of Remote System Control",
+   "detail": "Cybersecurity researchers have disclosed details of a cyber attack in which a threat actor leveraged a Microsoft Store application to deliver a remote access trojan (RAT) called Vinci RAT. The intrusion, according to eSentire, begins with\u2026",
+   "url": "https://thehackernews.com/2026/11/microsoft-store-app-found-delivering.html"
   },
   {
-   "id": "news-27f1645ed04a4e7e",
-   "title": "Unpatched Cacti Zero-Day Enables RCE in Just Four HTTP Requests via Guest Access",
-   "detail": "Details have emerged about a new zero-day vulnerability in Cacti, an open-source network monitoring tool, that could be exploited to achieve remote code execution. The proof-of-concept (PoC) exploit, which has yet to be assigned a CVE\u2026",
-   "url": "https://thehackernews.com/2026/11/unpatched-cacti-zero-day-enables-rce-in.html"
+   "id": "news-982bfc2fadcbc685",
+   "title": "How to Keep Your Security Picture Current When Attackers Move at AI Speed",
+   "detail": "Most security metrics are not built to be used. They are built to be shown. Somewhere between the quarterly review and the next status update, a set of numbers gets assembled that looks reassuring in a room and tells almost no one what is\u2026",
+   "url": "https://thehackernews.com/2026/11/how-to-keep-your-security-picture.html"
   }
  ],
  "alerts": [
