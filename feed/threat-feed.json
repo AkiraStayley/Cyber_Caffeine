@@ -1,17 +1,17 @@
 {
- "generated_at": "2026-11-28T04:15:53+00:00",
+ "generated_at": "2026-11-28T07:30:43+00:00",
  "news": [
+  {
+   "id": "news-a061202fd8df49d8",
+   "title": "Suspected Vietnam-Linked Hackers Target Southeast Asia in South China Sea Espionage Campaign",
+   "detail": "A Vietnam-sponsored hacking group has been attributed to attacks targeting Southeast Asian military, government, and legislative organizations with an aim to gather intelligence on South China Sea defense and military agreements. The\u2026",
+   "url": "https://thehackernews.com/2026/11/suspected-vietnam-linked-hackers-target.html"
+  },
   {
    "id": "news-c60eeeaa334b435f",
    "title": "Microsoft Store App Found Delivering Vinci RAT Capable of Remote System Control",
    "detail": "Cybersecurity researchers have disclosed details of a cyber attack in which a threat actor leveraged a Microsoft Store application to deliver a remote access trojan (RAT) called Vinci RAT. The intrusion, according to eSentire, begins with\u2026",
    "url": "https://thehackernews.com/2026/11/microsoft-store-app-found-delivering.html"
-  },
-  {
-   "id": "news-982bfc2fadcbc685",
-   "title": "How to Keep Your Security Picture Current When Attackers Move at AI Speed",
-   "detail": "Most security metrics are not built to be used. They are built to be shown. Somewhere between the quarterly review and the next status update, a set of numbers gets assembled that looks reassuring in a room and tells almost no one what is\u2026",
-   "url": "https://thehackernews.com/2026/11/how-to-keep-your-security-picture.html"
   }
  ],
  "alerts": [
@@ -43,7 +43,7 @@
  "advisories": [],
  "outages": [],
  "report": {
-  "date": "2026-11-27",
-  "summary": "10 new actively exploited vulnerabilities in the last 48 hours."
+  "date": "2026-11-28",
+  "summary": "3 new actively exploited vulnerabilities in the last 48 hours."
  }
 }
