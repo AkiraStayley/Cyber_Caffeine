@@ -1,17 +1,17 @@
 {
- "generated_at": "2026-11-28T07:30:43+00:00",
+ "generated_at": "2026-11-28T15:38:27+00:00",
  "news": [
+  {
+   "id": "news-98be6a877e816947",
+   "title": "pCloud Password Manager Hit by Cyber Attack Involving Email Address Exposure and Login Attempts",
+   "detail": "Cross-platform password manager pCloud Pass has confirmed it was targeted by a cyber attack after users reported seeing unknown devices being connected to their accounts. \"A cyber attack targeting pCloud Pass occurred, which was promptly\u2026",
+   "url": "https://thehackernews.com/2026/11/pcloud-password-manager-hit-by-cyber.html"
+  },
   {
    "id": "news-a061202fd8df49d8",
    "title": "Suspected Vietnam-Linked Hackers Target Southeast Asia in South China Sea Espionage Campaign",
    "detail": "A Vietnam-sponsored hacking group has been attributed to attacks targeting Southeast Asian military, government, and legislative organizations with an aim to gather intelligence on South China Sea defense and military agreements. The\u2026",
    "url": "https://thehackernews.com/2026/11/suspected-vietnam-linked-hackers-target.html"
-  },
-  {
-   "id": "news-c60eeeaa334b435f",
-   "title": "Microsoft Store App Found Delivering Vinci RAT Capable of Remote System Control",
-   "detail": "Cybersecurity researchers have disclosed details of a cyber attack in which a threat actor leveraged a Microsoft Store application to deliver a remote access trojan (RAT) called Vinci RAT. The intrusion, according to eSentire, begins with\u2026",
-   "url": "https://thehackernews.com/2026/11/microsoft-store-app-found-delivering.html"
   }
  ],
  "alerts": [
